@@ -1,0 +1,59 @@
+body{
+    background-color:paleturquoise;
+}
+
+
+.container {
+    border: 1px solid black;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 300px 300px;
+}
+
+.container > svg {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+
+
+#light{
+    /* fill: rgba(89, 157, 252, 0.6); */
+    animation: colorShift 7s infinite;
+}
+@keyframes colorShift{
+    0%, 100%{ 
+        fill:rgba(255, 234, 5, 0.598);
+    }
+    50%{
+        fill:rgba(251, 255, 0, 0.44);
+    }
+}
+#medium{
+    /* fill:rgba(252, 89, 242, 0.73); */
+    animation: colorShift2 3s infinite;
+}
+@keyframes colorShift2{
+    0%, 100%{ 
+        fill:rgba(253, 4, 120, 0.568);
+    }
+    50%{
+        fill:rgba(255, 15, 195, 0.486);
+    }
+}
+#dark{
+    /* fill: rgba(89, 157, 252, 0.6); */
+    animation: colorShift3 3s infinite;
+}
+@keyframes colorShift3{
+    0%, 100%{ 
+        fill: rgba(21, 113, 243, 0.37);
+    }
+    50%{
+        fill:rgba(76, 200, 200, .8);
+    }
+}
