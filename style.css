@@ -17,6 +17,7 @@
 
   svg{
       display:block;
+      width:100%;
   }
 
   #adopt{
@@ -25,6 +26,12 @@
   #adoptGraphic{
       fill:rgba(172, 255, 47, 0.509);
   }
+#needsCircle{
+    fill:rgba(0, 0, 255, 0.53);
+}
+#needsText{
+    fill:rgba(255, 174, 0, 0.639)
+}
 
   @media only screen and (max-width: 800px) {
     .container {
