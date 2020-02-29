@@ -19,6 +19,13 @@
       display:block;
   }
 
+  #adopt{
+      fill:rgba(14, 190, 244, 0.564);
+  }
+  #adoptGraphic{
+      fill:rgba(172, 255, 47, 0.509);
+  }
+
   @media only screen and (max-width: 800px) {
     .container {
         /* border: 1px solid black; */
