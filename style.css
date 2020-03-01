@@ -15,6 +15,9 @@
     color: #ffeead;
   }
 
+  p{
+      font-size: 2em;
+  }
   svg{
       display:block;
       width:100%;
